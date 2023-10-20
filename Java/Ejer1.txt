@@ -1,0 +1,1 @@
+Hibernate es un ORM para java para el acceso de datos de las base de datos.
