@@ -1,0 +1,16 @@
+
+La funcion calculateBinomial siguiendo las reglas de algebra resuelve primero  (2 * a * b) y luego lo suma con (squareOfA  + squareOfB) y por otro lado en cada llamada suma +1 a la variable global "numberOfCalls",  por lo tanto los output devuelven lo siguiente:   
+
+output 1 
+    alert(calculateBinomial(2,3)) // Muestra 25
+
+output 2
+    alert(calculateBinomial(4,5)) // Muestra 81
+
+output 3
+    alert(numberOfCalls) // Muestra 2
+
+output 4
+    alert(typeof squareOfA)
+
+    // Este output muestra como resultado undefined porque la variable "squareOfA" no esta definida de forma global en el programa, esta definida de forma local en la funcion "calculateBinomial" y su alcance pertenece al bloque de dicha funcion. 
